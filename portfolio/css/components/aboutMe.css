@@ -1,0 +1,39 @@
+.aboutMe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 3.125rem 0 3.125rem 9.375rem; 
+    background-color: var(--third-color); 
+}
+
+.containerImg img{
+    border-radius: 2rem;
+    width: 300px;
+    height: 300px;
+}
+
+.containerAbout h2{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 2.5rem;
+    
+}
+
+.containerAbout h4{
+    font-family: var(--secondary-font); 
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.containerAbout p{
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1rem;
+}
+
+
+/*
+.socialMedia{
+}
