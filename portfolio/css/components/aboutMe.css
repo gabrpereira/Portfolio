@@ -11,36 +11,50 @@
     border-radius: 2rem;
     width: 300px;
     height: 300px;
-    margin-left: 9.375rem;
+    margin-left: 6.25rem;
 }
 
 .containerAbout{
-    margin-right: 12.5rem;
-    text-align: justify;
+    margin: 0 12.5rem 0 1rem;
+}
+
+.textAbout{
+    margin: 3.125rem;
 }
 
 .containerAbout h2{
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 2.5rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    line-height: 4rem;
 }
 
 .containerAbout h4{
     font-family: var(--secondary-font); 
     font-weight: 400;
     font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 2.3rem;
+    letter-spacing: -2px;
 }
 
 .containerAbout p{
     font-family: var(--secondary-font);
     font-weight: 300;
-    font-size: 1rem;
-  
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    letter-spacing: -1px;
 }
 
 /*
-.socialMedia{
+.socialMedia a{
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.social-btn instagram-btn{
+    width: 2rem;
+    border: nono;
+    background-color: var(--secondary-color);
 }
