@@ -5,6 +5,7 @@
     border-radius: 50px;
     padding: 3.125rem 0 3.125rem 0;
     background-color: var(--third-color);
+    box-shadow: 3.125rem 3.125rem 3.125rem 1rem rgba(0, 0, 0, 1.0);
 }
 
 .containerImg img{
@@ -12,21 +13,29 @@
     width: 300px;
     height: 300px;
     margin-left: 6.25rem;
+    position: absolute;
 }
 
 .containerAbout{
-    margin: 0 12.5rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 12.5rem;
 }
 
 .textAbout{
-    margin: 3.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .containerAbout h2{
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 2.5rem;
-    line-height: 4rem;
+    
 }
 
 .containerAbout h4{
@@ -43,18 +52,29 @@
     font-family: var(--secondary-font);
     font-weight: 300;
     font-size: 1.1rem;
+    padding-left: 1.5rem;
     line-height: 1.8rem;
     letter-spacing: -1px;
 }
 
-/*
-.socialMedia a{
-    text-decoration: none;
-    color: var(--title-color);
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
 }
 
-.social-btn instagram-btn{
-    width: 2rem;
-    border: nono;
-    background-color: var(--secondary-color);
+.socialMedia a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    color: var(--title-color);
+    border-radius: 50%; 
+    background: var(--second-color);
+}
+
+.socialMedia i{
+    font-size: 1.8rem;
+    text-align: center;
 }
