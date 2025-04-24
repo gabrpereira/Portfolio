@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- === CEREBRO DO SITE === -->
 <head>
 
     <meta charset="UTF-8">
@@ -7,23 +9,25 @@
     
     <title>Gabriel Pereira</title>
     
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="assets/imagem/comparison-yellow.png" type="image/svg+xml">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/components/root.css">
+    <link rel="stylesheet" href="css/components/variables.css">
     <link rel="stylesheet" href="css/components/menu.css">
-    <link rel="stylesheet" href="css/components/initiation.css">
-    <link rel="stylesheet" href="css/components/aboutMe.css">
-
+    <link rel="stylesheet" href="css/components/start.css">
+    <link rel="stylesheet" href="css/components/about.css">
+    <link rel="stylesheet" href="css/components/projects.css">
+    <link rel="stylesheet" href="css/components/skills.css">
+    <link rel="stylesheet" href="css/components/footer.css">
 
 </head>
     <body>
         
-<!--    CABEÇA DO SITE    -->
+<!-- ==== MENU DO SITE === -->
         <header class="menu">
-            <h2 class="nameH2"><span class="comparisonH2">&lt/</span>Gabriel Pereira<span class="comparisonH2">&gt</span></h2>
-            <nav class="menuButtons">
-                <a href="#initiation">Home</a>
+            <h2 class="menu_title"><span class="menu_title_comparison">&lt/</span>Gabriel Pereira<span class="menu_title_comparison">&gt</span></h2>
+            <nav class="menu_buttons">
+                <a href="#start">Home</a>
                 <a href="#about">About me</a>
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
@@ -31,26 +35,29 @@
             
         </header>
         
-<!--    CORPO DO SITE    -->
+<!-- === ESQUELETO DO SITE === -->
         <main>
-            <section class="initiation" id="initiation">
-                <h3><span class="backgroundH3">Hello I'm</span></h3>
-                <h1><span class="comparisonH1">&lt/</span>Gabriel Pereira Dev<span class="comparisonH1">&gt</span></h1>
-                <h2>Developer Java</h3>
+            <!-- === INÍCIO === -->
+            <section class="start" id="start">
+                    <p class="start_paragraph"><span class="start_background">Hello I'm</span></p>
+                    <h1 class="start_title"><span class="start_comparison">&lt/</span>Gabriel Pereira Dev<span class="start_comparison">&gt</span></h1>
+                    <h2 class="start_subtitle">Developer Front End</h3>
             </section>
-                
-            <section class="aboutMe" id="about">
-                <div class="containerImg">
-                    <img src="assets/imagem/gabriel-pereira.png" alt="Perfil Gabriel Pereira">
+            <!-- === FIM INÍCIO === -->
+            
+            <!-- === ABOUT ME === -->    
+            <section class="about" id="about">
+                <div class="about_container_image">
+                    <img src="assets/imagem/gabriel-pereira.png" alt="Perfil Gabriel Pereira" arial-label="Profile perfil Gabriel Pereira">
                 </div>
-                <div class="containerAbout">
-                    <div class="textAbout">
-                        <h2>About me</h2>
-                        <h4>Inspired by the endless possibilities of coding.</h4>
-                        <p>Graduated in Systems Analysis and Development.</p>
-                        <p>Currently studying JavaScript and its frameworks.</p>
+                <div class="about_container">
+                    <div class="about_text">
+                        <h2 class="about_title">About me</h2>
+                        <h4 class="about_subtitle">Inspired by the endless possibilities of coding.</h4>
+                        <p class="about_paragraph">Graduated in Systems Analysis and Development.</p>
+                        <p class="about_paragraph">Currently studying JavaScript and its frameworks.</p>
                     </div>
-                    <nav class="socialMedia">
+                    <nav class="about_social_media">
                         <a href="https://www.linkedin.com/in/gabriel-pereira031/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-in" aria-label="LinkedIn Gabriel Pereira">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -66,23 +73,38 @@
                     </nav>
                 </div>
             </section>
+            <!-- === FIM ABOUT === -->
             
-            <section class="latestProjects" id="projects">
-                <p>Portfolio</p>
-                <h2><span>Latest</span>Projects</h2>
+            <!-- === PROJETOS === -->
+            <section class="projects" id="projects">
+                <h2 class="projects_title"><span>Latest</span>Projects</h2>
+                <div class="projects_container">
+                    <article class="projects_container_portfolio">
+                        <h5 class="projects_portfolio_title">
+                        <img src="assets/imagem/" alt="" arial-label="">
+                    </article>
+                    <article class="projects_container_links">
+                        <h5 class="project_links_title">
+                        <img src="assets/imagem/" alt="" arial-label="">
+                    </article>
+                    <article class="projects_container_sua-academia">
+                        <h5 class="projects_sua-academia_title">
+                        <img src="assets/imagem/" alt="" arial-label="">
+                    </article>
+                </div>
             </section>
+            <!-- === FIM PROJETOS === -->
 
+            <!-- === SKILLS === -->
             <section class="skills" id="skills">
-                <p>What I am Good In</p>
-                <h2>Skills</h2>
-                
+                <h2 class="skills_title">Skills</h2>
             </section>
+            <!-- === FIM SKILLS === -->
         </main>
 
-<!--    PÉS DO SITE    -->
+<!-- === FINAL DO SITE === -->
         <footer class="footer">
-            <p>Copyright © 2024 by Gabriel Pereira. All rights reserved.</p>
+            <p class="footer_paragraph">Copyright © 2024 by Gabriel Pereira. All rights reserved.</p>
         </footer>
-
     </body>
 </html>

@@ -1,0 +1,15 @@
+.footer{
+	background-color: var(--second-color);
+	width: 100%;
+	bootom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.footer_paragraph{
+	padding: 25px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	color: var(--title-color);
+}

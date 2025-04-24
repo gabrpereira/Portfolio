@@ -1,0 +1,38 @@
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 9.375rem 0 0 9.375rem;
+}
+
+/* === TEXTOS === */
+.start_paragraph{
+    color: var(--title-color);
+    padding: 0.4rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.start_background{
+    background-color: var(--second-color);
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+}
+
+.start_title{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: var(--text-color);
+    padding: 0.625rem;
+}
+
+.start_comparison{
+    color: var(--third-color);
+}
+
+.start_subtitle{
+    font-size: 2rem;
+    color: var(--text-color);
+    padding: 0 0 0.4rem 3rem;
+}
