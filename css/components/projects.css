@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 3.125rem;
+    margin: 3.125rem 6.250rem;
     scroll-margin-top: 135px;
 }
 
@@ -34,6 +34,7 @@
     position: relative;
     transition: background-color 0.3s ease;
     overflow: hidden;
+    cursor: grab;
 }
 
 /* === IMAGEM === */
@@ -65,7 +66,6 @@
    text-align: center;
    gap: 0.3rem;
    box-sizing: border-box;
-
 }
 
 .projects_card:hover .projects_content{

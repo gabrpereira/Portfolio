@@ -25,7 +25,7 @@
 /* === BOTÕES === */
 
 .menu_buttons a{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     color: var(--title-color);

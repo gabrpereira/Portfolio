@@ -1,9 +1,12 @@
 .skills{
     display: flex;
-    justify-content: center;
-    margin: 3.125rem;
+    align-items: center;
+    flex-direction: column;
+    margin: 3.125rem 6.250rem;
     border-radius: 50px;
-    text-align: center;
+    padding: 3.125rem 0 3.125rem 0;
+    background-color: var(--third-color);
+    scroll-margin-top: 135px;
 }
 
 /* === TEXTOS === */
@@ -13,5 +16,37 @@
     font-weight: 400;
     font-size: 2.6rem;
     color: var(--text-color);
-    
+    margin-bottom: 3.125rem;
+}
+
+.skills_container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.skills_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--second-color);
+    gap: 0.5rem;
+}
+
+.skills_card i{
+    display: flex;
+    font-size: 3rem;
+    color: var(--first-color);
+}
+
+.skills_card p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--title-color);
 }
