@@ -5,7 +5,7 @@
     border-radius: 50px;
     padding: 3.125rem 0 3.125rem 0;
     background-color: var(--third-color);
-
+    scroll-margin-top: 150px;
 }
 
 /* === IMAGEM === */
